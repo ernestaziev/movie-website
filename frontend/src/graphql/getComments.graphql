@@ -1,0 +1,11 @@
+query GetComments($movieId: Float!) {
+  getComments(movieId: $movieId) {
+    id
+    text
+    user {
+      id
+      first_name
+      last_name
+    }
+  }
+}

@@ -1,0 +1,14 @@
+mutation AddComment($movieId: Float!, $text: String!) {
+  addComment(movieId: $movieId, text: $text) {
+    id
+    text
+    user {
+      id
+      first_name
+      last_name
+    }
+    movie {
+      imdb_id
+    }
+  }
+}

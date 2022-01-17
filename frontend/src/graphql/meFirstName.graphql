@@ -1,0 +1,6 @@
+query MeFirstName {
+  me {
+    id
+    first_name
+  }
+}

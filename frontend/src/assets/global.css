@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400&display=swap");
+:root {
+  --search-form-width: calc(100vw - 9rem);
+  --search-form-icon-width: 5rem;
+  --search-form-height: 2.5rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Rubik, sans-serif;
+  line-height: 1.4;
+  color: white;
+  background-color: hsl(200, 80%, 30%);
+  background-image: radial-gradient(hsl(200, 80%, 30%), hsl(210, 80%, 20%));
+}
+
+h1 {
+  font-weight: 800;
+  font-family: Helvetica, serif;
+}

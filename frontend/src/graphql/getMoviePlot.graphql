@@ -1,0 +1,6 @@
+query GetMoviePlot($movieId: Float!) {
+  getMovie(movieId: $movieId) {
+    imdb_id
+    plot
+  }
+}

@@ -1,0 +1,6 @@
+query GetMoviesTitle($offset: Int, $limit: Int, $title: String) {
+  getMovies(offset: $offset, limit: $limit, title: $title) {
+    imdb_id
+    title
+  }
+}
